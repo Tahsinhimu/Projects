@@ -1,0 +1,274 @@
+.MainHEader {
+  width: 100%;
+  height: 70px;
+  background: rgb(20, 77, 79);
+}
+.MainHEader .container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10%;
+}
+
+.MainHEader .container .logo h4 {
+  padding: 0 20px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: aliceblue;
+}
+.MainHEader .navLinks {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.MainHEader .navLinks .closeclass {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 4;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+.MainHEader .navLinks .closeclass i {
+  font-size: 1rem;
+  color: black;
+  font-weight: 800;
+}
+.MainHEader .navLinks ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.MainHEader .navLinks ul li {
+  font-size: 1.2rem;
+  color: aliceblue;
+}
+.MainHEader .navLinks ul li:hover {
+  color: orange;
+  transition: 0.5s ease-in-out;
+}
+.MainHEader .ResponseBars {
+  display: none;
+}
+
+/* header complete */
+
+.containerPageOne {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  overflow: hidden;
+}
+.containerPageOne .containerImage {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+.containerPageOne .containerImage img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  filter: brightness(0.5);
+}
+.containerPageOne .textdivs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerPageOne .textdivs .container {
+  width: 50%;
+  height: auto;
+  backdrop-filter: blur(10px);
+  text-align: center;
+  border: 1px solid aliceblue;
+  border-radius: 20px;
+  padding: 15px 20px;
+}
+.containerPageOne .textdivs .container h4 {
+  font-size: 2.4rem;
+  color: aliceblue;
+  font-weight: 600;
+  word-spacing: 4px;
+  margin: 10px auto;
+}
+.containerPageOne .textdivs .container h2 {
+  font-size: 1rem;
+  color: aliceblue;
+  font-weight: normal;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin: 10px auto;
+}
+.containerPageOne .textdivs .container button {
+  background-color: rgb(255, 213, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  padding: 6px 12px;
+  font-size: 1.2rem;
+}
+.containerPageOne .textdivs .container button:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+  transition: 0.8s ease;
+}
+
+/* pageone complete */
+.containerProducts {
+  width: 100%;
+  height: auto;
+  background-color: rgb(14, 14, 97);
+  text-align: center;
+  padding: 20px 0;
+}
+.containerProducts .heading {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerProducts .heading h5 {
+  font-size: 2rem;
+  color: aliceblue;
+  font-weight: 700;
+  margin: 40px auto;
+}
+.containerProducts .container {
+  width: 80%;
+  height: auto;
+  margin: 40px 10%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+.containerProducts .container .box {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.containerProducts .container .box h3 {
+  word-wrap: break-word;
+  font-size: 1.5rem;
+  color: #3b3b3b;
+}
+.containerProducts .container .box p {
+  word-wrap: break-word;
+  font-size: 1.2rem;
+  color: #3b3b3b;
+}
+.containerProducts .container .box button {
+  background-color: rgb(255, 213, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  padding: 5px 15px;
+  font-size: 1rem;
+}
+
+@media (max-width: 660px) {
+  .MainHEader .container {
+    width: 90%;
+    margin: 0 5%;
+  }
+  /* mainheader size adjustment */
+  .MainHEader .navLinks .closeclass {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 4;
+    padding-right: 15px;
+    padding-top: 15px;
+  }
+  .MainHEader .ResponseBars {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .MainHEader .ResponseBars i {
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 700;
+  }
+
+  .MainHEader .navLinks {
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: white;
+    text-align: center;
+  }
+  /* respone hide game  */
+  .MainHEader .navLinks ul {
+    width: 100%;
+    height: 100%;
+    display: flow;
+    gap: 2.5rem;
+    margin-top: 5rem;
+  }
+  .MainHEader .navLinks ul li {
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    margin-top: 1.5rem;
+  }
+  /* navlinnks */
+  .containerPageOne .containerImage img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+  }
+
+  .containerPageOne .textdivs .container {
+    width: 90%;
+    height: auto;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    border: 1px solid aliceblue;
+    border-radius: 20px;
+    padding: 15px 20px;
+  }
+  .containerPageOne .textdivs .container h4 {
+    font-size: 2.4rem;
+    color: aliceblue;
+    font-weight: 600;
+    word-spacing: 4px;
+    margin: 30px auto;
+  }
+  .containerPageOne .textdivs .container h2 {
+    font-size: 1.3rem;
+
+    margin: 15px auto;
+  }
+  .containerPageOne .textdivs .container button {
+    font-size: 1.4rem;
+  }
+
+  /* first page  */
+
+  .containerProducts .container {
+    width: 95%;
+    margin: 25px 2.5%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* product container  */
+}

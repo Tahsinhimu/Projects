@@ -1,0 +1,159 @@
+*{
+    background-color: aliceblue;
+}
+.navbar{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar .logo img{
+
+    width: 100px;
+    height: auto;
+    mix-blend-mode: multiply;
+}
+
+.navbar nav{
+    width: 50%;
+    height: 100%;
+   
+}
+
+.navbar nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 49px auto;
+}
+.navbar nav ul li{
+    list-style: none;
+    height: 100%;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar nav ul li a:hover{
+    color: red;
+    transition: .5s ease-in-out;
+}
+.navbar .bookAppointment{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .bookAppointment button{
+    padding: 18px;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(to right, rgb(52 168 222) , rgb(173 149 255) , rgb(119 212 255));
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+/* navbar complete */
+
+
+.container {
+    width: 100%;
+    height: auto;
+
+}
+
+.container .form{
+    width: 800px;
+    height: auto;
+    margin: 50px auto;
+    border-radius: 30px;
+    background: linear-gradient(to right, rgb(77, 193, 247) , rgb(115, 78, 216));
+    
+}
+.container .form h3{
+    text-align: center;
+    background: transparent;
+    font-size: 40px;
+    color: white;
+    padding: 30px 0 20px 0;
+}
+.container .form h3 span{
+    text-align: center;
+    background: transparent;
+    color: rgb(0, 217, 255);
+}
+.container .form form{
+    display: flex;
+    flex-wrap: wrap;
+    background: transparent;
+    border-radius: 30px;
+    width: 100%;height: auto;
+}
+
+.container .form form .input{
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 20px auto;
+}
+.container .form form .input input{
+    background: white;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 17px;
+}
+.container .form form .input  label{
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    font-size: 19px;
+    background: transparent;
+}
+.container .form form  .selectServie{
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 20px auto;
+    
+}
+.container .form form .selectServie label{
+    background: transparent;
+    font-size: 19px;
+    padding-left: 10px;
+}
+
+.container .form form  .selectServie select{
+    background: white;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+.container .form form  .selectServie select option{
+    padding: 30px ;
+}
+.container .form form button{
+    padding: 18px 80px;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(to right, rgb(52 168 222) , rgb(173 149 255) , rgb(119 212 255));
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 20px auto;
+}

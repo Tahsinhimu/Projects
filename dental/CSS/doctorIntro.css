@@ -1,0 +1,269 @@
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    
+}
+.doctor{
+    background: linear-gradient( to right , rgb(255 255 255) ,rgb(140 205 235));
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.doctor .home{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    margin: 10px auto;
+
+}
+.doctor .home .text{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding-top: 130px;
+    padding-left: 80px;
+}
+.doctor .home .text .P{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 10px 0px;
+    text-align: left;
+
+}
+.doctor .home .text h3{
+    font-size: 41px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: start;
+    margin: 10px 0 20px 0;}
+.doctor .home .text p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.doctor .home .text button{
+    text-align: left;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: -130px;
+    padding: 15px;
+    border: 3px solid rgb(171, 130, 238);
+    border-radius: 15px;
+    box-shadow: 1px 3px 5px -2px;
+    
+    background: -webkit-linear-gradient(45deg ,#3002ff, #bcc6f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.doctor  .home .image{
+    width: 50%;
+    height: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.doctor .home .image img{
+    width: 600px;
+    height: auto;
+    
+    overflow-y: hidden;
+}
+
+/* finish */
+
+
+.doctor .brands{
+    margin: 70px auto;
+    width: 80%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.doctor .brands img{
+    width: 90px;
+    height: 90px;
+    
+}
+
+/* end */
+
+.doctor .ourServices{
+    width: 80%;
+    height: auto;
+    display: grid;
+    text-align: center;
+    margin: 70px auto;
+}
+.doctor .ourServices .text{
+    width: 80%;
+    height: auto;
+    margin: 5px auto 20px auto;
+}
+
+.doctor .ourServices .text h4{
+    font-size: 28px;
+    color: rgb(47, 32, 255);
+}
+
+.doctor .ourServices .text h3{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    margin: 20px auto;
+    font-family: serif;
+    word-spacing: 3px;
+}
+.doctor .ourServices .text p{
+    font-size: 24px;
+    margin: 22px auto;
+    font-family: serif;
+}
+
+.doctor .cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+.doctor .cards .box{
+    width: 22%;
+    height: auto;
+    display: block;
+    text-align: center;
+    background: white;
+    border-radius: 22px;
+    box-shadow: 1px 0px 18px -3px;
+    margin: 10px auto;
+}
+.doctor .cards .box img{
+    width: 80px;
+    height: 53px;
+    border: 1px solid black;
+    border-radius: 21px;
+    object-fit: cover;
+    margin: 20px auto;
+}
+
+.doctor .cards .box h3{
+    color: rgb(101, 101, 204);
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.doctor .cards .box p{
+    width: 80%;
+    margin: 10px auto;
+    height: auto;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+}
+.doctor .cards .box .links{
+ width: 90%;
+ height: auto;
+ margin: 53px auto 5px auto; 
+ display: flex;
+ justify-content: space-between;   
+}
+.doctor .cards .box .links .a{
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+    font-size: 15px;
+    margin-left: 30px;
+}  
+
+/* 
+complete */
+
+
+.doctor .videoCard{
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    background-color: rgb(202, 234, 252);
+    display: flex;
+flex-wrap: wrap;
+}
+.doctor .videoCard img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 30px 0px 0 50px;
+    position: absolute;
+}
+.doctor .videoCard .head{
+    width: 80%;
+    height: auto;
+    display: grid;
+    text-align: center;
+    margin: 50px auto;
+}
+.doctor .videoCard .head a{
+    font-size: 24px;
+    margin: 5px auto;
+    text-decoration: underline;
+    color: rgb(42, 153, 243);
+}
+.doctor .videoCard .head h3{
+    font-size: 31px;
+    margin: 19px auto;
+}
+.doctor .videoCard .head video{
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+/*---end contact---*/
+.doctor .footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(161, 215, 236);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.doctor .footer .row{
+    width: 30%;
+    height: auto;
+    display: grid;
+    
+}
+.doctor .footer .row h3{
+    font-size: 21px;
+    font-weight: bold;
+}
+.doctor .page-one .footer .row p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.doctor .page-one .footer .row p span{
+    font-weight: normal;
+}
+.doctor .footer .row p a{
+    text-decoration: none;
+    color: black;
+    width: 80px;
+    
+}
+

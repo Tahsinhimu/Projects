@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+}
+.page-one{
+    background-color: aliceblue;
+}
+.navbar{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar .logo img{
+
+    width: 100px;
+    height: auto;
+    mix-blend-mode: multiply;
+}
+
+.navbar nav{
+    width: 50%;
+    height: 100%;
+   
+}
+
+.navbar nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 27px auto;
+}
+.navbar nav ul li{
+    list-style: none;
+    height: 100%;
+    margin-top: 20px;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar nav ul li a:hover{
+    color: red;
+    transition: .5s ease-in-out;
+}
+.navbar .bookAppointment{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .bookAppointment button{
+    padding: 18px;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(to right, rgb(52 168 222) , rgb(173 149 255) , rgb(119 212 255));
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+/*----navbar over--*/
+
+/*homepage*/
+
+.page-one .homepage{
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+.page-one .homepage .text{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    padding-top: 190px;
+    
+}
+.page-one .homepage .text h3{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 33px;
+    letter-spacing: 1px;
+}
+.page-one .homepage .text h3 span{
+    color:  rgb(12, 169, 241);
+}
+.page-one .homepage .text p{
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin: 20px auto;
+}
+.page-one .homepage .text button{
+    padding: 18px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(to right, rgb(52 168 222) , rgb(173 149 255) , rgb(119 212 255));
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.page-one .homepage .imageDiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.page-one .homepage .imageDiv img{
+    width: 70%;
+    height: 70%;
+    border-radius: 257px 191px 173px 173px;
+    object-fit: cover;
+}
+
+/*-----homepage over */
+
+
+.page-one .about{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    
+}
+.page-one .about .imageDiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.page-one .about .imageDiv img{
+    width: 48%;
+    height: auto;
+    margin: 1%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.page-one .about .imageDiv .a{
+    border-radius: 20px 20px 0px 20px;
+}
+.page-one .about .imageDiv .b{
+    border-radius: 20px 20px 20px 0px;
+}
+.page-one .about .imageDiv .c{
+    border-radius: 20px 0px 20px 20px;
+}
+.page-one .about .imageDiv .d{
+    border-radius: 0px 20px 20px 20px;
+}
+
+.page-one .about .text{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page-one .about .text h4{
+    font-size: 25px;
+    color: rgb(7, 179, 121);
+    padding-left: 20px;
+    padding-top: 15px;
+    text-align: left;
+    
+}
+.page-one .about .text h3{
+    padding-top: 130px;
+    font-size: 40px;
+    line-height: 53px;
+    letter-spacing: 1px;
+}
+.page-one .about .text h3 span{
+    color: rgb(0, 162, 255);
+}
+
+.page-one .about .text p{
+    font-size: 19px;
+    padding: 20px;
+}
+
+
+/*------about us over */
+
+
+.page-one .servshow{
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.page-one .servshow .text{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+.page-one .servshow .text h3{
+    padding-top: 100px;
+    font-size: 27px;
+    line-height: 33px;
+    letter-spacing: 1px;
+    color: rgb(57, 57, 240);
+}
+.page-one .servshow .text p{
+    font-size: 19px;
+    padding: 10px;
+    width: 80%;
+    word-break: break-word;
+    margin: 0 auto;
+}
+.page-one .servshow .box{
+    width: 250px;
+    height: auto;
+    text-align: center;
+    border-radius: 30px;
+    background: transparent;
+    box-shadow: 0px 0px 4px 0px;
+    padding-top: 29px;
+    margin: 10px 10px;
+}
+.page-one .servshow .box img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: white;
+    border: 5px solid white;
+}
+
+
+.page-one .servshow .box h3{
+    padding-left: 20px;
+    font-size: 22px;
+    margin: 7px;
+}
+.page-one .servshow .box p{
+    padding-left: 20px;
+    font-size: 17px;
+    line-height: 24px;
+}
+.page-one .servshow .box button{
+padding: 11px 40px;
+text-align: left;
+border-radius: 20px;
+margin: 20px;
+border: none;
+color: black;
+background: #aedceb;
+}
+
+
+/*   ---------page one end */
+
+.page-one .contact{
+    width: 100%;
+    height: 60vh;
+    margin: 120px auto 60px auto;
+    padding-bottom: 20px;
+    display: grid;
+    text-align: center;
+    background: linear-gradient(to right, rgb(52 168 222) , rgb(173 149 255) , rgb(119 212 255));
+}
+.page-one .contact h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    line-height: 53px;
+    margin: 35px;
+    color: white;
+
+   
+}
+.page-one .contact .box{
+    width: 800px;
+    height: 110px;
+    border-radius: 20px;
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+    background-color: white;
+   
+}
+.page-one .contact .box h3{
+    width: 50%;
+    font-size: 32px;
+    color: black;
+}
+.page-one .contact .box span{
+    position: relative;
+    top: 0px;
+    left: 20px;
+    background: #6bbaff;
+    width: 40px;
+    height: 40px;
+    border-radius: 63px;
+    /* padding-top: 1px; */
+    font-size: 27px;
+    text-align: center;
+}
+.page-one .contact .box a{
+    width: 50%;
+    height: 100%;
+    color: white;
+    background-color: black;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.page-one .contact .box a button{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: black;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*---end contact---*/
+.page-one .footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(161, 215, 236);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.page-one .footer .row{
+    width: 30%;
+    height: auto;
+    display: grid;
+    
+}
+.page-one .footer .row h3{
+    font-size: 21px;
+    font-weight: bold;
+}
+.page-one .footer .row p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.page-one .footer .row p span{
+    font-weight: normal;
+}
+.page-one .footer .row p a{
+    text-decoration: none;
+    color: black;
+    width: 80px;
+    
+}
+

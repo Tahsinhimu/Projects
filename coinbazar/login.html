@@ -8,6 +8,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="login.css" />
     <title>CoinBazar</title>
   </head>
   <body>
@@ -18,7 +19,9 @@
             <i class="fa-solid fa-bars"></i>
           </div>
           <div class="logos">
-            <h4>CoinBazar<br />.com</h4>
+            <a href="index.html"
+              ><h4>CoinBazar<br />.com</h4></a
+            >
           </div>
           <div class="search">
             <div class="searchInput">
@@ -44,7 +47,7 @@
             <i class="fa-solid fa-shopping-bag"></i>
           </div>
           <div class="loginBtn">
-            <a href="login.html"><button>Login</button></a>
+            <button>Login</button>
           </div>
         </div>
       </div>
@@ -57,65 +60,45 @@
     </div>
 
     <!-- HEADER COMPLETE   -->
-    <div class="bannerDiv">
-      <img src="Images/banner.png" alt="" />
-    </div>
 
-    <div class="homeContainerBg">
-      <div class="homeContainer">
-        <div class="heading">
-          <div class="text">
-            <h5>Arekta Collection</h5>
+    <div class="loginContainer">
+      <div class="heading">
+        <h5>Login</h5>
+      </div>
+      <div class="container">
+        <div class="inputDiv">
+          <label for="email">Email</label>
+          <input type="email" placeholder="Enter Your Email" id="email" />
+        </div>
+        <div class="inputDiv">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            placeholder="Enter Your password"
+            id="password"
+          />
+        </div>
+
+        <div class="infosDiv">
+          <div class="remember">
+            <input type="checkbox" />
+            <label for="">Remember Me</label>
           </div>
-          <div class="navigate">
-            <i class="fa-solid fa-arrow-left"></i>
-            <a href=""><button>All</button></a>
-            <i class="fa-solid fa-arrow-right"></i>
+          <div class="forgot">
+            <a href="">Forgot Password</a>
           </div>
         </div>
 
-        <div class="content">
-          <a href="descriptionPage.html">
-            <div class="box">
-              <div class="img"><img src="Images/thumb.png" alt="" /></div>
-
-              <h4>270-770 BDT</h4>
-            </div>
-          </a>
-          <a href="descriptionPage.html">
-            <div class="box">
-              <div class="img"><img src="Images/thumb.png" alt="" /></div>
-
-              <h4>270-770 BDT</h4>
-            </div>
-          </a>
-          <a href="descriptionPage.html">
-            <div class="box">
-              <div class="img"><img src="Images/thumb.png" alt="" /></div>
-
-              <h4>270-770 BDT</h4>
-            </div>
-          </a>
-          <a href="descriptionPage.html">
-            <div class="box">
-              <div class="img"><img src="Images/thumb.png" alt="" /></div>
-
-              <h4>270-770 BDT</h4>
-            </div>
-          </a>
-          <a href="descriptionPage.html">
-            <div class="box">
-              <div class="img"><img src="Images/thumb.png" alt="" /></div>
-
-              <h4>270-770 BDT</h4>
-            </div>
-          </a>
+        <div class="buttons">
+          <button class="login">Login</button>
+          <a href="register.html"
+            ><button class="reg">Don't have an account?Register</button></a
+          >
         </div>
       </div>
     </div>
 
-    <!-- REUSABEL CONTAINER COMPLETE  -->
-
+    <!-- FOOTER STARTING -->
     <div class="footerBg">
       <div class="footer">
         <div class="introduction">

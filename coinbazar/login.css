@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.loginContainer {
+  width: 40%;
+  height: auto;
+  margin: 3rem 30%;
+}
+.loginContainer .heading {
+  width: 100%;
+}
+.loginContainer .heading h5 {
+  font-size: 2.2rem;
+  color: rgb(33, 192, 255);
+  margin: 20px 0;
+  text-align: center;
+}
+.loginContainer .container {
+  width: 90%;
+  margin: 15px 5%;
+}
+.loginContainer .container .inputDiv {
+  width: 100%;
+  margin-top: 15px;
+}
+.loginContainer .container .inputDiv label {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.loginContainer .container .inputDiv input {
+  width: 100%;
+  height: 30px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(237, 237, 237);
+  color: aliceblue;
+}
+.loginContainer .container .infosDiv {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.loginContainer .container .infosDiv .remember {
+  gap: 5px;
+}
+.loginContainer .container .infosDiv .remember input,
+label {
+  font-size: 1rem;
+}
+.loginContainer .container .infosDiv .forgot a {
+  font-size: 1rem;
+  text-decoration: underline;
+  color: rgb(33, 107, 255);
+}
+.loginContainer .container .buttons {
+  width: 100%;
+  display: grid;
+  gap: 15px;
+  margin-top: 3rem;
+}
+.loginContainer .container .buttons button {
+  width: 100%;
+  height: auto;
+  padding: 15px 0;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  border: none;
+}
+.loginContainer .container .buttons .login {
+  background: rgb(33, 192, 255);
+  color: white;
+}
+
+.loginContainer .container .buttons .reg {
+  background: rgb(29, 32, 36);
+  color: rgb(222, 240, 255);
+}
+.loginContainer .container .buttons .login:hover {
+  background: rgb(29, 32, 36);
+  transition: 0.4s ease;
+}
+.loginContainer .container .buttons .reg:hover {
+  background: rgb(33, 192, 255);
+  transition: 0.4s ease;
+}
+
+@media (max-width: 620px) {
+  .loginContainer {
+    width: 95%;
+    height: auto;
+    margin: 3rem 2.5%;
+  }
+}

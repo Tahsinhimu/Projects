@@ -35,6 +35,7 @@ body {
 .headerBg .headerMain .headerPart .navtrigger i {
   font-size: 1.3rem;
 }
+
 .headerBg .headerMain .headerPart .logos h4 {
   font-size: 1.3rem;
   font-weight: 600;
@@ -126,6 +127,49 @@ body {
   transition: 0.3s ease-in-out;
 }
 
+.sideNavBar {
+  background: #242424;
+  width: 20vw;
+  height: 100%;
+  position: absolute;
+  top: 70px;
+  left: 0;
+}
+.sideNavBar .container {
+  display: grid;
+  margin-left: 20px;
+  margin-top: 25px;
+  width: calc(100% -20px);
+}
+.sideNavBar .container .links {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  max-height: 45px;
+  padding: 0 7px;
+  border-radius: 0.5rem;
+}
+.sideNavBar .container .links:hover {
+  background: rgb(29, 133, 251);
+}
+.sideNavBar .container .links a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+.sideNavBar .container .links a p {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/* CLOSEBTN   */
+.closeBtn {
+  display: none;
+}
+.sideNavBar {
+  display: none;
+}
 /* search mobile bar  */
 .headerBg .searchMobile {
   width: 100%;
@@ -213,6 +257,17 @@ body {
   background-color: #616161;
   color: rgb(230, 230, 230);
 }
+.bannerDiv {
+  display: flex;
+  width: 80%;
+  margin: 10px 10%;
+  border-radius: 1rem;
+}
+.bannerDiv img {
+  width: 100%;
+  height: auto;
+  margin: 15px 0;
+}
 .homeContainer .content {
   width: 100%;
   height: auto;
@@ -284,7 +339,7 @@ body {
   margin: 5px 0;
 }
 .footer .links .row a {
-  text-decoration: none;
+  text-decoration: underline;
   color: rgb(240, 240, 240);
   font-size: 1rem;
   font-weight: 400;
@@ -323,9 +378,21 @@ a {
 }
 
 @media (max-width: 620px) {
+  .sideNavBar {
+    display: none;
+    background: #242424;
+    width: 70vw;
+    height: 100%;
+    position: absolute;
+    top: 70px;
+    left: 0;
+  }
   .homeContainer {
     width: 95%;
     margin: 10px 2.5%;
+  }
+  .bannerDiv {
+    display: none;
   }
   .homeContainer .content {
     width: 100%;
@@ -338,5 +405,10 @@ a {
 
   .footer {
     margin-top: 0;
+    width: 90%;
+    margin: 10px 5%;
+  }
+  .footerLinks .texts {
+    display: flow;
   }
 }

@@ -16,8 +16,8 @@
       <div class="headerMain">
         <div class="headerPart">
           <div class="navtrigger">
-            <i class="fa-solid fa-bars"></i>
-            <i class="fa-solid fa-x closeBtn"></i>
+            <i class="fa-solid fa-bars bars" onclick="navOpen()"></i>
+            <i class="fa-solid fa-x cross" onclick="navClose()"></i>
           </div>
           <div class="logos">
             <a href="index.html"
@@ -194,3 +194,25 @@
     </div>
   </body>
 </html>
+
+<script>
+  function navOpen() {
+    let nav = document.querySelector(".sideNavBar");
+    let cross = document.querySelector(".cross");
+    let bars = document.querySelector(".bars");
+
+    nav.style.display = "flow";
+    cross.style.display = "flow";
+    bars.style.display = "none";
+  }
+
+  function navClose() {
+    let nav = document.querySelector(".sideNavBar");
+    let cross = document.querySelector(".cross");
+    let bars = document.querySelector(".bars");
+
+    nav.style.display = "none";
+    cross.style.display = "none";
+    bars.style.display = "flex";
+  }
+</script>
